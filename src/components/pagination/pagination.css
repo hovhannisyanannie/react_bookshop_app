@@ -1,0 +1,36 @@
+ .pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:55px;
+    padding-bottom: 25px;
+}
+
+.page{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color:var(--white);
+    border:2px solid var(--white);
+    margin:0 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.pagination .active{
+    background-color:var(--darkBrown);
+} 
+
+.page.next, .page.previous{
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    padding:16px;  
+}
+
+.pagination button{
+    background: none;
+    cursor:pointer
+}

@@ -1,0 +1,73 @@
+.home .carousel-text{
+   position: relative;
+  }
+    
+  .home .carousel img{
+    width: 100%!important;
+    height: 70vh;
+    object-fit: cover;
+  }
+  
+.home .carousel-text .text{
+    width: 550px;
+    height: 250px;
+    position: absolute;
+    top:40%;
+    left:calc(50% - 275px);
+    z-index: 3;
+    font-weight: 500;
+    letter-spacing: 1.2;
+    color:var(--white);
+  }
+  
+  .home .carousel-text .text h2{
+    text-align: center;
+    color:var(--white);
+    white-space: nowrap;
+    font-size: 52px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 30px;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9), -1px -3px 8px rgba(206,89,55,0);
+  }
+
+  .home .carousel-text .text h2:hover{
+    transition: .5s;
+    text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5, -1px -3px 8px rgba(206,89,55,0);
+  }
+  
+  .home .carousel-text .text p{
+    color:var(--white);
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:var(--lightBrown);
+  }
+
+  .home .container .carousel-text .btn{
+    font-size: 20px;
+    border: 1px solid rgb(252, 248, 248);
+    cursor: pointer;
+    position: relative;
+    left:calc(50% - 100px);
+    background-color: rgba(0, 0, 0, 0);
+    white-space: nowrap;
+    z-index: 1;
+    color:var(--white);
+    padding: 13px 50px 13px;
+    background-color:var(--lightBrown);
+  }
+  
+  .home .container .carousel-text .btn:hover{
+    color:var(--white)!important;
+    background-color: transparent;
+  }
+  
+  @media screen and (max-width: 710px){
+      .home .carousel-text .text h2{
+        font-size: 32px;
+      }
+      .home .carousel img{
+        height: 55vh;
+      }
+  }
