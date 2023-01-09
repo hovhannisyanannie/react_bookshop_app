@@ -28,7 +28,7 @@ const Home = ({Show, handleShow,order, setOrder}) => {
     async function getUser() {
       setLoading(true);
       try {
-        const response = await fetch('http://localhost:3000/books');
+        const response = await fetch('https://json-server-h85r.onrender.com/books');
     
         if (!response.ok) {
           throw new Error(`Error! status: ${response.status}`);
