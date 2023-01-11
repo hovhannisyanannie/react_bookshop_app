@@ -49,20 +49,6 @@ const Home = ({Show, handleShow,order, setOrder}) => {
     }
     getBooks();
 
-
-    // async function f() {
-
-    //   try {
-    //     const response = await fetch('http://localhost:3000/books');
-    //         setBooks(await response.json());
-    //         setLoading(false);
-    //   } catch(err) {
-    //     console.log(err)
-    //   }
-    // }
-    
-    // f();
-
 }, []);
 
 
