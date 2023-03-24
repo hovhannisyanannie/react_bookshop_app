@@ -21,29 +21,11 @@ const Home = ({Show, handleShow,order, setOrder}) => {
 
 
   useEffect(() => {
-  //   async function getUser() {
-  //     setLoading(true);
-  //     try {
-  //       const response = await fetch('https://json-server-h85r.onrender.com/books');
-    
-  //       if (!response.ok) {
-  //         throw new Error(`Error! status: ${response.status}`);
-  //       }
-    
-  //         setBooks(await response.json());
-  //         setLoading(false);
-  //     } catch (err) {
-  //       console.log(err);
-  //     }
-  //   }
-    
-  //   getUser();
-
-
+  
     const getBooks = async () => {
         setLoading(true);
 
-        const response = await fetch ("https://json-server-h85r.onrender.com/books")
+        const response = await fetch ("https://uninterested-jade-sheep.cyclic.app/books")
             setBooks(await response.json());
             setLoading(false);
     }
