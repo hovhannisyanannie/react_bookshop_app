@@ -15,7 +15,7 @@ const Authors = () => {
     const getBooks = async () => {
         setLoading(true);
 
-        const response = await fetch ("https://json-server-h85r.onrender.com/books");
+        const response = await fetch ("https://uninterested-jade-sheep.cyclic.app/books");
             setBooks(await response.json());
             setLoading(false);
     }
